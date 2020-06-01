@@ -1,0 +1,76 @@
+/*
+Theme Name: Pilumnus
+Text Domain: Pilumnus
+Version: 1.0
+Description:
+Author: the https://serdukov.eu
+Author URI: https://serdukov.eu
+*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url(http://allfont.ru/allfont.css?fonts=droid-serif);
+@import url(https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;800;900&display=swap);
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+
+html, body { line-height: 1; height: 100%; }
+
+ol, ul { list-style: none; }
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+a { text-decoration: none; }
+
+body { font-family: 'Droid Serif', arial; font-family: 'Raleway', sans-serif; font-weight: 400; font-size: 16px; position: relative; }
+
+.content { width: 100%; height: 100%; background-image: url(images/bg_top.png); background-repeat: no-repeat; background-size: cover; background-position: top; min-height: 6222px; -webkit-box-sizing: border-box; box-sizing: border-box; overflow: hidden; z-index: 0; position: relative; }
+
+.header { width: 100%; height: 100%; background-image: url(images/bg_bottom.png); background-repeat: no-repeat; background-size: cover; background-position: top; min-height: 6222px; -webkit-box-sizing: border-box; box-sizing: border-box; overflow: hidden; z-index: 3; position: relative; }
+
+.header__banner { position: absolute; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; left: 50%; top: 4.5%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); text-align: center; z-index: 1; border: 10px solid #ad7835; background-color: transparent; }
+
+.header__banner .title-top { display: block; color: #ffffff; font-size: 25px; font-weight: bold; text-transform: uppercase; margin-top: 15px; }
+
+@media (max-width: 767px) { .header__banner .title-top { margin-top: calc(10px + 76.5 * ((100vw - 320px) / 1300)); } }
+
+@media (min-width: 767px) { .header__banner .title-top { margin-top: calc(10px + 45 * (100vw / 1300)); } }
+
+.header__banner .title { display: block; color: #ffffff; font-family: "Droid Serif"; font-size: 185px; font-weight: 400; line-height: 115.75px; margin: 25px; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+@media (max-width: 767px) { .header__banner .title { font-size: calc(85px + 170 * ((100vw - 320px) / 1300)); } }
+
+@media (min-width: 767px) { .header__banner .title { font-size: calc(85px + 100 * (100vw / 1300)); } }
+
+@media (max-width: 767px) { .header__banner .title { margin-top: calc(10px + 51 * ((100vw - 320px) / 1300)); } }
+
+@media (min-width: 767px) { .header__banner .title { margin-top: calc(10px + 30 * (100vw / 1300)); } }
+
+@media (max-width: 767px) { .header__banner .title { margin-left: calc(10px + 195.5 * ((100vw - 320px) / 1300)); } }
+
+@media (min-width: 767px) { .header__banner .title { margin-left: calc(10px + 115 * (100vw / 1300)); } }
+
+@media (max-width: 767px) { .header__banner .title { margin-bottom: calc(10px + 59.5 * ((100vw - 320px) / 1300)); } }
+
+@media (min-width: 767px) { .header__banner .title { margin-bottom: calc(10px + 35 * (100vw / 1300)); } }
+
+@media (max-width: 767px) { .header__banner .title { margin-right: calc(10px + 195.5 * ((100vw - 320px) / 1300)); } }
+
+@media (min-width: 767px) { .header__banner .title { margin-right: calc(10px + 115 * (100vw / 1300)); } }
+
+.header__banner .subtitle { display: block; color: #ad7835; line-height: 50px; text-transform: uppercase; font-weight: bold; }
+
+@media (max-width: 767px) { .header__banner .subtitle { font-size: calc(20px + 8.5 * ((100vw - 320px) / 1300)); } }
+
+@media (min-width: 767px) { .header__banner .subtitle { font-size: calc(20px + 5 * (100vw / 1300)); } }
+
+@media (max-width: 767px) { .header__banner .subtitle { margin-bottom: calc(10px + 93.5 * ((100vw - 320px) / 1300)); } }
+
+@media (min-width: 767px) { .header__banner .subtitle { margin-bottom: calc(10px + 55 * (100vw / 1300)); } }

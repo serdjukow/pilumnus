@@ -1,4 +1,4 @@
-$maxWidth: 1190;
+$maxWidth: 1300;
 @mixin adaptive-font($pcSize, $mobSize) {
 	$addSize: $pcSize - $mobSize;
 	$addMobSize: $addSize + $addSize * 0.7;
@@ -90,7 +90,7 @@ $maxWidth: 1190;
 	}
 }
 
-@mixin adaptive-mpadding-right($pcSize, $mobSize) {
+@mixin adaptive-margin-right($pcSize, $mobSize) {
 	$addSize: $pcSize - $mobSize;
 	$addMobSize: $addSize + $addSize * 0.7;
 	@media (max-width: 767px)
